@@ -1,0 +1,4 @@
+/target
+.*
+!.gitignore
+MY_DATA.json
