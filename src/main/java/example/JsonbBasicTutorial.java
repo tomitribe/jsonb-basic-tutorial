@@ -17,18 +17,15 @@ limitations under the License.
 
 package example;
 
+import org.apache.johnzon.jsonb.JohnzonBuilder;
+
+import javax.json.bind.Jsonb;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-
-import javax.json.bind.Jsonb;
-
-import org.apache.johnzon.jsonb.JohnzonBuilder;
 
 public class JsonbBasicTutorial {
 
