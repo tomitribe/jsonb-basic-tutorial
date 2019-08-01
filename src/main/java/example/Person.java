@@ -17,7 +17,6 @@ limitations under the License.
 
 package example;
 
-import javax.json.bind.annotation.JsonbProperty;
 
 public class Person {
 	// BINDING FIELDS

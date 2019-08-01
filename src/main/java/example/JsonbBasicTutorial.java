@@ -49,10 +49,10 @@ public class JsonbBasicTutorial {
 
 			// Marshal the Person POJOs back into JSON
 			String myData = jsonb.toJson(persons);
-
+			
 			// Create a print writer for the file MY_DATA.json
 			writer = new PrintWriter("MY_DATA.json", "UTF-8");
-
+			
 			// write JSON data to MY_DATA.json
 			writer.print(myData);
 
